@@ -8,6 +8,7 @@ load_dotenv()
 
 api_key=os.environ.get("OPENAI_API_KEY")
 
+print(api_key)
 
 # Set your OpenAI API key here
 
