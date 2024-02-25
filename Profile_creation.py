@@ -11,11 +11,11 @@ api_key=os.environ.get("OPENAI_API_KEY")
 
 # Set your OpenAI API key here
 
-# def generate_animal_description(name, breed, age, sex, simple_personality, preference):
-#     client = OpenAI(
-#     # This is the default and can be omitted
-#     api_key=api_key,
-# )
+def generate_animal_description(name, breed, age, sex, simple_personality, preference):
+    client = OpenAI(
+    # This is the default and can be omitted
+    api_key=api_key,
+)
     """
     Generates an engaging animal personality description using the OpenAI API, including the pet's name.
     The description will be 200 ~ 300 words long.
